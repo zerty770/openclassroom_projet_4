@@ -652,6 +652,8 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .container {
@@ -677,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -702,7 +704,10 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    text-indent: 0%;
+    font-size: 0;
 }
+
 
 h2 {
     font-size: 22px;
