@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: white;
 }
 
 .d-bloc button:hover {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #F3976C;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #F3976C;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -704,8 +704,17 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding-bottom: 16px;
     text-indent: 0%;
     font-size: 0;
+}
+
+.col-sm-3 a{
+    color: white!important;
+}
+
+.col-sm-4 a{
+    color: white!important;
 }
 
 
@@ -776,7 +785,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #282B31;
 }
 
 .tc-white {
@@ -784,7 +793,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #282B31;
     color: #FFFFFF!important;
 }
 
