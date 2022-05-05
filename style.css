@@ -792,6 +792,9 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.avant{
+z-index: 1;}
+
 .btn-atomic-tangerine {
     background: #282B31;
     color: #FFFFFF!important;
