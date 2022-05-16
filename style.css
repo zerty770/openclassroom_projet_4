@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: #F3976C;
+    color: #000000;
 }
 
 .d-bloc .a-btn:hover,
@@ -308,7 +308,7 @@ a:hover {
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    min-width: 150px;
 }
 
 .nav-center .navbar-brand img {
@@ -347,7 +347,7 @@ a:hover {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: #F3976C;
     width: 26px;
 }
 
@@ -714,7 +714,13 @@ p {
 }
 
 .col-sm-4 a{
-    color: white!important;
+    color: black!important;
+}
+
+.black{
+    color: black!important;
+
+z-index: 1000;
 }
 
 
@@ -750,7 +756,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -767,7 +773,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgb(0 0 0 / 70%);
+    background-color: #F3976C;
     padding: 40px 40px 40px 40px;
 }
 
@@ -785,19 +791,22 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #282B31;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: white!important;
 }
-
+.prems{
+    position: relative;
+    z-index: 1000;
+}
 .avant{
 z-index: 1;}
 
 .btn-atomic-tangerine {
-    background: #282B31;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -806,7 +815,7 @@ z-index: 1;}
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white:hover {
